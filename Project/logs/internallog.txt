@@ -1,0 +1,9 @@
+2020-05-23 15:37:39.2600 Info Auto loading assembly file: F:\vs19pdd\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-05-23 15:37:39.3003 Info Loading assembly file: F:\vs19pdd\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
+2020-05-23 15:37:39.3869 Info NLog.Extensions.Logging, Version=1.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 1.6.4.1366. Product version: 1.6.4. GlobalAssemblyCache: False
+2020-05-23 15:37:39.3948 Info Auto loading assembly file: F:\vs19pdd\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll succeeded!
+2020-05-23 15:37:39.3948 Info Message Template Auto Format enabled
+2020-05-23 15:37:39.4590 Info Adding target FileTarget(Name=logfile)
+2020-05-23 15:37:39.4998 Info Validating config: TargetNames=logfile, ConfigItems=14, FilePath=F:\vs19pdd\BookStore-API\BookStore-API\bin\Debug\netcoreapp3.1\NLog.config
+2020-05-23 15:37:39.5502 Info Configuration initialized.
+2020-05-23 15:37:39.5502 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.2.11786. Product version: 4.7.2+024896f64b840a743d3fd89e29c2186681e7795f. GlobalAssemblyCache: False
