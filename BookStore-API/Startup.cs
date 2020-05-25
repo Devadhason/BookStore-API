@@ -17,6 +17,8 @@ using System.Reflection;
 using System.IO;
 using BookStore_API.Services;
 using BookStore_API.Contracts;
+using AutoMapper;
+using BookStore_API.Mappings;
 
 namespace BookStore_API
 {
@@ -38,7 +40,9 @@ namespace BookStore_API
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            //----add CORS configuration services-----
+            
+
+            //----3.add CORS configuration services-----
 
             services.AddCors(o =>
             {
@@ -48,7 +52,9 @@ namespace BookStore_API
                     .AllowAnyHeader());
             });
 
-            //----add swagger before services.addcontrollers-------
+           
+
+            //----1. add swagger before services.addcontrollers-------
             services.AddSwaggerGen(c => 
             {
                 c.SwaggerDoc("v1", new OpenApiInfo 
@@ -64,8 +70,15 @@ namespace BookStore_API
                 c.IncludeXmlComments(xpath);
             });
 
-            //--------add logger services [NLog]---------
+            //--------2. add logger services [NLog]---------
             services.AddSingleton<ILoggerService, LoggerService>();
+
+            //--------3. using AddScoped for AuthorRepository------
+            services.AddScoped<IAuthorRepository, AuthorRepository>();
+
+            //----4.add Maps.cs class-----
+
+            services.AddAutoMapper(typeof(Maps));
 
             services.AddControllers();
         }
@@ -92,6 +105,7 @@ namespace BookStore_API
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", "Book Store API");
             });
 
+            
             //----add CORS in pipeline-----
             app.UseCors("CorsPolicy");
 

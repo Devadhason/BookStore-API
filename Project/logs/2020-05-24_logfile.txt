@@ -1,0 +1,38 @@
+2020-05-24 16:42:28.5370 INFO Attempted to Get all authors
+2020-05-24 16:42:32.1684 INFO Successfully got all authors
+2020-05-24 16:43:41.0289 INFO Attempted to Get all authors
+2020-05-24 16:43:41.0924 INFO Successfully got all authors
+2020-05-24 16:47:10.8922 INFO Attempted to Get all authors
+2020-05-24 16:47:10.9153 INFO Successfully got all authors
+2020-05-24 16:48:49.6616 INFO Attempted to Get all authors
+2020-05-24 16:48:51.1094 INFO Successfully got all authors
+2020-05-24 16:49:24.0832 INFO Attempted to Get all authors
+2020-05-24 16:49:40.0248 ERROR A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) - System.ComponentModel.Win32Exception (53): The network path was not found.
+2020-05-24 16:50:16.5061 INFO Attempted to Get all authors
+2020-05-24 16:50:17.8876 INFO Successfully got all authors
+2020-05-24 17:34:54.5971 INFO Attempted to get author with id:1
+2020-05-24 17:34:56.4812 WARN Author with Id: 1 was not found
+2020-05-24 17:37:10.5086 INFO Attempted to Get all authors
+2020-05-24 17:37:10.6192 INFO Successfully got all authors
+2020-05-24 17:43:45.1552 INFO Attempted to get author with id:1
+2020-05-24 17:43:45.1887 WARN Author with Id: 1 was not found
+2020-05-24 19:14:07.5280 INFO Author submission attempted
+2020-05-24 19:14:10.0062 INFO Author Created Successfully
+2020-05-24 19:18:19.3010 INFO Author submission attempted
+2020-05-24 19:18:19.4021 INFO Author Created Successfully
+2020-05-24 23:11:20.9142 INFO Attempted to Get all authors
+2020-05-24 23:11:24.2547 INFO Successfully got all authors
+2020-05-24 23:11:50.0395 INFO Attempted to get author with id:1
+2020-05-24 23:11:50.3323 INFO Successfully got author with id:1
+2020-05-24 23:14:02.9804 INFO Author with 2 updation attempted
+2020-05-24 23:14:03.6310 INFO Author with id: 2 updated Successfully
+2020-05-24 23:14:35.9023 INFO Author with 2 updation attempted
+2020-05-24 23:14:35.9124 WARN Author update failed with bad data
+2020-05-24 23:17:30.7761 INFO Author with 2 updation attempted
+2020-05-24 23:17:30.7761 WARN Author update failed with bad data
+2020-05-24 23:24:50.5550 INFO Author with 2 updation attempted
+2020-05-24 23:24:50.7211 INFO Author with id: 2 updated Successfully
+2020-05-24 23:31:46.1534 INFO Author with 2 updation attempted
+2020-05-24 23:31:46.1773 INFO Author with id: 2 updated Successfully
+2020-05-24 23:32:36.1841 INFO Author with 1 updation attempted
+2020-05-24 23:32:36.2958 INFO Author with id: 1 updated Successfully

@@ -1,0 +1,8 @@
+2020-05-25 09:18:33.6320 INFO Attempted to Get all authors
+2020-05-25 09:18:37.0566 INFO Successfully got all authors
+2020-05-25 09:18:57.4648 INFO Author with 2 deletion attempted
+2020-05-25 09:18:57.9180 INFO Author with id: 2 deleted Successfully
+2020-05-25 09:19:06.9260 INFO Attempted to Get all authors
+2020-05-25 09:19:07.0101 INFO Successfully got all authors
+2020-05-25 09:20:48.7757 INFO Author submission attempted
+2020-05-25 09:20:48.9030 INFO Author Created Successfully
