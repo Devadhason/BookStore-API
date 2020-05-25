@@ -6,3 +6,75 @@
 2020-05-25 09:19:07.0101 INFO Successfully got all authors
 2020-05-25 09:20:48.7757 INFO Author submission attempted
 2020-05-25 09:20:48.9030 INFO Author Created Successfully
+2020-05-25 14:41:22.7705 INFO Attempted to Get all authors
+2020-05-25 14:41:27.1949 INFO Successfully got all authors
+2020-05-25 14:56:01.1274 INFO Books - Create:Create attempted
+2020-05-25 14:56:03.3295 INFO Books - Create: Creation Successfull
+2020-05-25 14:56:03.3295 INFO Books - Create: BookStore_API.Data.Book
+2020-05-25 14:56:42.7487 INFO Books - GetBooks: Attempted call
+2020-05-25 14:56:43.3914 ERROR Books - GetBooks:Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-05-25 14:56:58.7813 INFO Books - GetBook: Attempted call with id:1
+2020-05-25 14:56:59.4284 ERROR Books - GetBook:Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-05-25 14:57:39.0068 INFO Books - GetBooks: Attempted call
+2020-05-25 14:57:39.0472 ERROR Books - GetBooks:Unable to cast object of type 'System.Decimal' to type 'System.Double'. - 
+2020-05-25 15:06:45.9432 INFO Books - GetBooks: Attempted call
+2020-05-25 15:06:47.3150 INFO Books - GetBooks: Successfull
+2020-05-25 15:07:18.2068 INFO Books - GetBook: Attempted call with id:1
+2020-05-25 15:07:18.4250 INFO Books - GetBook: Successfully got record with Id: 1
+2020-05-25 16:51:02.8002 INFO Books - GetBook: Attempted call with id:1
+2020-05-25 16:51:02.8541 INFO Books - GetBook: Successfully got record with Id: 1
+2020-05-25 16:51:12.9627 INFO Books - GetBook: Attempted call with id:2
+2020-05-25 16:51:12.9825 INFO Books - GetBook: Failed to retrieve record for id:2
+2020-05-25 16:51:29.4469 INFO Books - GetBook: Attempted call with id:1
+2020-05-25 16:51:29.4950 INFO Books - GetBook: Successfully got record with Id: 1
+2020-05-25 16:53:13.1842 INFO Books - Create:Create attempted
+2020-05-25 16:53:14.0625 ERROR Books - Create:An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The INSERT statement conflicted with the FOREIGN KEY constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Authors", column 'Id'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:9cd50d65-4c53-4f95-bd43-85bd9e5ba69b
+Error Number:547,State:0,Class:16
+2020-05-25 16:53:26.8023 INFO Books - Create:Create attempted
+2020-05-25 16:53:26.8832 INFO Books - Create: Creation Successfull
+2020-05-25 16:53:26.8832 INFO Books - Create: BookStore_API.Data.Book
+2020-05-25 16:53:55.6991 INFO Books - GetBooks: Attempted call
+2020-05-25 16:53:55.7096 INFO Books - GetBooks: Successfull
+2020-05-25 17:37:45.1113 INFO Books - GetBooks: Attempted call
+2020-05-25 17:37:47.3542 INFO Books - GetBooks: Successfull
+2020-05-25 17:38:02.1349 INFO Books - GetBook: Attempted call with id:1
+2020-05-25 17:38:02.3685 INFO Books - GetBook: Successfully got record with Id: 1
+2020-05-25 17:39:02.7671 INFO Authors - Update: attempted with 1 updation
+2020-05-25 17:39:03.1089 INFO Authors - Update: with id: 1 updated Successfully
+2020-05-25 18:07:50.2540 INFO Books - GetBooks: Attempted call
+2020-05-25 18:07:51.5876 INFO Books - GetBooks: Successfull
+2020-05-25 18:09:12.0858 INFO Authors - Delete: Deletion attempted with 3
+2020-05-25 18:09:12.6349 ERROR An error occurred while updating the entries. See the inner exception for details. - Microsoft.Data.SqlClient.SqlException (0x80131904): The DELETE statement conflicted with the REFERENCE constraint "FK_Books_Authors". The conflict occurred in database "BookStore", table "dbo.Books", column 'AuthorId'.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__164_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__274_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:cdd9b80e-8a90-47b7-8d9a-839245667efe
+Error Number:547,State:0,Class:16
+2020-05-25 18:12:35.7372 INFO Books - Delete: Delete attempted on record - id: 3
+2020-05-25 18:12:35.8534 INFO Books - Delete: Record id: 3 deleted Successfully
+2020-05-25 18:12:57.4636 INFO Authors - Delete: Deletion attempted with 3
+2020-05-25 18:12:57.4965 INFO Authors - Delete: with id: 3 deleted Successfully

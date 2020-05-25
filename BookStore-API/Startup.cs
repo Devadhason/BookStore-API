@@ -75,6 +75,7 @@ namespace BookStore_API
 
             //--------3. using AddScoped for AuthorRepository------
             services.AddScoped<IAuthorRepository, AuthorRepository>();
+            services.AddScoped<IBookRepository, BookRepository>();
 
             //----4.add Maps.cs class-----
 
