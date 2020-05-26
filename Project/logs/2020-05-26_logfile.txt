@@ -1,0 +1,37 @@
+2020-05-26 08:02:28.5223 INFO Books - GetBooks: Attempted call
+2020-05-26 08:02:29.0099 INFO Books - GetBooks: Successfull
+2020-05-26 12:15:07.1447 INFO User - Login: Login attempt from User:eerr
+2020-05-26 12:15:07.2813 INFO User - Login: eerr not authenticated 
+2020-05-26 12:15:26.3387 INFO User - Login: Login attempt from User:Customer1
+2020-05-26 12:15:26.8757 INFO User - Login: Customer1 successfully authenticated 
+2020-05-26 12:50:00.8342 INFO User - Login: Login attempt from User:admin
+2020-05-26 12:50:01.1827 INFO User - Login: admin successfully authenticated 
+2020-05-26 12:52:34.4049 INFO Authors - Create: Submission attempted
+2020-05-26 12:52:34.8341 INFO Authors - Create: Created Successfully
+2020-05-26 12:52:34.8341 INFO Authors - Create: BookStore_API.Data.Author
+2020-05-26 12:53:37.1179 INFO Attempted to Get all authors
+2020-05-26 12:53:37.1666 INFO Successfully got all authors
+2020-05-26 14:02:25.5659 INFO Attempted to Get all authors
+2020-05-26 14:02:25.8664 INFO Successfully got all authors
+2020-05-26 14:03:03.8518 INFO User - Login: Login attempt from User:admin
+2020-05-26 14:03:04.1925 INFO User - Login: admin successfully authenticated 
+2020-05-26 14:04:17.1281 INFO User - Login: Login attempt from User:Customer1
+2020-05-26 14:04:17.3155 INFO User - Login: Customer1 successfully authenticated 
+2020-05-26 14:04:42.4673 INFO Authors - Delete: Deletion attempted with 4
+2020-05-26 14:04:42.7664 INFO Authors - Delete: with id: 4 deleted Successfully
+2020-05-26 14:04:52.8533 INFO Attempted to Get all authors
+2020-05-26 14:04:52.8650 INFO Successfully got all authors
+2020-05-26 14:06:09.1757 INFO User - Login: Login attempt from User:admin
+2020-05-26 14:06:09.2090 INFO User - Login: admin successfully authenticated 
+2020-05-26 14:06:37.2705 INFO Authors - Create: Submission attempted
+2020-05-26 14:06:37.4724 INFO Authors - Create: Created Successfully
+2020-05-26 14:06:37.4724 INFO Authors - Create: BookStore_API.Data.Author
+2020-05-26 14:07:07.3140 INFO Authors - Create: Submission attempted
+2020-05-26 14:07:07.3653 INFO Authors - Create: Created Successfully
+2020-05-26 14:07:07.3653 INFO Authors - Create: BookStore_API.Data.Author
+2020-05-26 14:07:54.2733 INFO Authors - Create: Submission attempted
+2020-05-26 14:07:54.3155 INFO Authors - Create: Created Successfully
+2020-05-26 14:07:54.3155 INFO Authors - Create: BookStore_API.Data.Author
+2020-05-26 14:08:37.9629 INFO Authors - Create: Submission attempted
+2020-05-26 14:08:38.0021 INFO Authors - Create: Created Successfully
+2020-05-26 14:08:38.0021 INFO Authors - Create: BookStore_API.Data.Author
